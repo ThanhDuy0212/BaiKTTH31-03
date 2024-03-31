@@ -1,0 +1,190 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    background-color: rgb(206, 238, 233);
+}
+.dau{
+    background-color: rgb(43, 148, 223);
+    width: 1000px;
+    height: 300px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu{
+    width: 1000px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 12% 14% 18% 18% 13% 25%;
+    justify-items: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    font-size: 14px;
+    background-color: rgb(24, 108, 203);
+}
+
+.giua{
+    background-color: rgb(213, 229, 231);
+    width: 1000px;
+    height: 1100px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.trai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bai1 {
+    background-color: rgb(134, 183, 184);
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.bai2 {
+    background-color: rgb(134, 183, 184);
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.bai3 {
+    background-color: rgb(134, 183, 184);
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.ten {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tacGia{
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hinhAnh{
+    width: 400px;
+    height: 230px;
+}
+
+.moTa{
+    font-size: 14px;
+}
+
+.phai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.phai > * {
+    margin-bottom: 20px; 
+}
+
+.item1 {
+    background-color: rgb(98, 142, 141);
+    width: 300px;
+    height: 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item2 {
+    background-color: rgb(98, 142, 141);
+    width: 300px;
+    height: 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item3 {
+    background-color: rgb(98, 142, 141);
+    width: 300px;
+    height: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    .icon .fa {
+        font-size: 32px;
+        color: black;
+    
+    }
+}
+
+.item4 {
+    background-color: rgb(98, 142, 141);
+    width: 300px;
+    height: 150px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer {
+
+    background-color: #7bbacd;
+    color: #fff;
+    Width: 1280px;
+    height:300px;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+  }
+  .footer-logo {
+    background-color: #1156ea;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  /* Phần tử con trong footer */
+  .footer-menu {
+    margin: 10px 0; /* Thêm một khoảng cách giữa các phần tử p */
+  }
+  
+  .footer-menu {
+    color: #8b919a;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-logo {
+    color: #bbb;
+  }
+  
+  /* Thiết kế cho logo */
+  .footer-logo {
+    width: 150px; /* Kích thước của logo */
+    margin-bottom: 70px; /* Khoảng cách giữa logo và các phần tử khác */
+  }
+  
+  /* Thiết kế cho danh mục */
+  .footer-menu {
+    list-style: none; /* Xóa dấu đầu dòng cho danh sách */
+    padding: 0; /* Xóa padding mặc định của danh sách */
+  }
+  
+  .footer-menu li {
+    display: inline-block; /* Hiển thị các mục danh sách trên cùng một dòng */
+    margin: 0 10px; /* Khoảng cách giữa các mục danh sách */
+  }
